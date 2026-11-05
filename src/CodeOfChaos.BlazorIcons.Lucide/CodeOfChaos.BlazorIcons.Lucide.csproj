@@ -3,6 +3,7 @@
 
     <PropertyGroup>
         <TargetFrameworks>net9.0;net10.0</TargetFrameworks>
+        <EnableDefaultContentItems>false</EnableDefaultContentItems>
 
         
         <PackageId>CodeOfChaos.BlazorIcons.Lucide</PackageId>
@@ -39,5 +40,4 @@
     <ItemGroup>
       <_ContentIncludedByDefault Remove="Properties\launchSettings.json" />
     </ItemGroup>
-
 </Project>
