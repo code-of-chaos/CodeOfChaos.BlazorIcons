@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "lucide-static": "1.66.0"
+    "lucide-static": "1.72.0"
+  },
+  "engines": {
+    "node": ">=26"
   }
 }

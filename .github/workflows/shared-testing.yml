@@ -13,7 +13,7 @@ jobs:
             -   name: Setup Node.js
                 uses: actions/setup-node@v7
                 with:
-                    node-version: 24
+                    node-version: 26
 
             -   name: Install Dependencies
                 run: npm install
@@ -23,8 +23,8 @@ jobs:
                 uses: actions/setup-dotnet@v6
                 with:
                     dotnet-version: |
-                        8.x
-                        9.x
+                        10.x
+                        11.x
                         10.x
 
             -   name: Setup Python
