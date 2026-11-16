@@ -1,5 +1,5 @@
 {
-  "IconAmount": 2052,
+  "IconAmount": 2055,
   "IconNames": [
     "a-arrow-down",
     "a-arrow-up",
@@ -310,6 +310,7 @@
     "candy-off",
     "cannabis",
     "cannabis-off",
+    "cap",
     "captions",
     "captions-off",
     "car",
@@ -870,6 +871,7 @@
     "graduation-cap",
     "grape",
     "graph-hub",
+    "graph-ring",
     "graph-star",
     "grid-2x2",
     "grid-2x2-check",
@@ -1010,6 +1012,7 @@
     "layout-freeform",
     "layout-grid",
     "layout-grid-circles",
+    "layout-grid-plus",
     "layout-list",
     "layout-panel-left",
     "layout-panel-top",
