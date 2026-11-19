@@ -21,6 +21,8 @@
         <IsPackable>true</IsPackable>
         <IncludeBuildOutput>true</IncludeBuildOutput>
 
+        <Version>1.72.0</Version>
+
         <GeneratePackageOnBuild Condition="'$(GeneratePackageOnBuild)' == '' and '$(CI)' == 'true'">true</GeneratePackageOnBuild>
         <GeneratePackageOnBuild Condition="'$(GeneratePackageOnBuild)' == ''">false</GeneratePackageOnBuild>
         

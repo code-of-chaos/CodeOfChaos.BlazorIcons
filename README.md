@@ -21,7 +21,7 @@ This package uses the Minor section of semantic versions (`0.x.0`) to denote whi
 ## Getting Started
 
 ### Install the Package
-Make sure you have [.NET 9.0](https://dotnet.microsoft.com/) installed. Then install **CodeOfChaos.BlazorIcons.Lucide**:
+Make sure you have the **[.NET 10](https://dotnet.microsoft.com/)** or **[.NET 11](https://dotnet.microsoft.com/)** SDK installed (the package targets `net10.0` and `net11.0`). Then install **CodeOfChaos.BlazorIcons.Lucide**:
 
 ```shell
 dotnet add package CodeOfChaos.BlazorIcons.Lucide
@@ -98,12 +98,16 @@ This library:
 - **CodeOfChaos.GeneratorTools** for generator tooling in source generation scenarios.
 
 ### Supported Platforms
-- **.NET 9.0** Blazor Server and WebAssembly.
-- **.NET 10.0** Blazor Server and WebAssembly.
+- **.NET 10.0** (LTS) Blazor Server and WebAssembly.
+- **.NET 11.0** (STS) Blazor Server and WebAssembly.
 
 ---
 
 ## Development Notes
+
+Prerequisites for working on this repository:
+- The **.NET 11 SDK** (`11.0.100` or later, see `global.json`) to build and pack.
+- The **.NET 10 SDK/runtime** as well: the test suite multi-targets `net10.0` and `net11.0` and runs against both.
 
 This project follows a modular structure for maintainability:
 - `CodeOfChaos.BlazorIcons.Lucide`: Blazor components and service logic.

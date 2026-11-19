@@ -25,12 +25,6 @@ jobs:
                     dotnet-version: |
                         10.x
                         11.x
-                        10.x
-
-            -   name: Setup Python
-                uses: actions/setup-python@v7
-                with:
-                    python-version: 3.14
 
             -   name: Export node_modules path
                 run: |

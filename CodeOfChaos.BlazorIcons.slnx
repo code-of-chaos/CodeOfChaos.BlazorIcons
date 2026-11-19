@@ -15,7 +15,6 @@
     <File Path=".github/workflows/shared-testing.yml" />
   </Folder>
   <Folder Name="/.dev-tools/scripts/">
-    <File Path="scripts/bump_version.py" />
     <File Path="scripts/update_lucide_static.py" />
   </Folder>
   <Folder Name="/examples/">
