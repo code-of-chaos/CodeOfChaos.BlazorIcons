@@ -7,7 +7,6 @@
 
         
         <PackageId>CodeOfChaos.BlazorIcons.Lucide</PackageId>
-        <Version>1.72.0</Version>
         <Description>Use Lucide in your Blazor apps</Description>
         <Authors>CodeOfChaos, Lucide</Authors>
         
