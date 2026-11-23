@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "lucide-static": "1.76.0"
+    "lucide-static": "1.78.0"
   },
   "engines": {
     "node": ">=26"
